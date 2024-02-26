@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.product-card{
+    width: 50%;
+    height: 50%;
+    border-radius: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #353131;
+    box-shadow: 0px 5px 10px rgb(0,0,0,0,3);
+}
+
+.product-card img{
+    width: 50%;
+    height: 50%;
+    object-fit:contain;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #be7509;
+    
+
+
+}
+
+.product-infor{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product-infor h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Audiowide";
+}
+
+.product-infor p{
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.product-infor .price{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ff0000;
+    font-style: italic;
+}
+
+.product-infor button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: #e69215;
+    border: none;
+    transition: all 0,2s ease-in-out;
+}
+
+.product-infor button:hover{
+    background-color: #5d9914;
+    transform: translate(+5px);
+}
+
+
+
+
+
+
+
+
+
+
